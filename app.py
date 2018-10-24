@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template
-from flask.ext.cache import Cache
+from flask_caching import Cache
 import re
 from os import listdir
 from os.path import isfile, join, dirname
