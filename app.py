@@ -7,7 +7,7 @@ from os.path import isfile, join, dirname
 app = Flask(__name__)
 cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 
-image_regex = re.compile(r'\.(jpg|png)')
+image_regex = re.compile(r'\.(jpg|png|gif)')
 
 @app.route('/')
 def home():
