@@ -1,2 +1,6 @@
 node_modules
 *.pyc
+
+static/index.css
+static/index.js
+static/images
